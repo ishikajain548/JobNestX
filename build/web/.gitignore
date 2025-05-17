@@ -1,0 +1,26 @@
+# Ignore build and NetBeans-specific files
+build/
+dist/
+nbproject/private/
+nbbuild/
+.nb-gradle/
+.netbeans/
+*.class
+*.jar
+
+# Ignore OS/system files
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore uploads/resumes (optional)
+uploads/
+
+# Ignore IDE-specific config (if using other IDEs too)
+.idea/
+.vscode/
+
+# Do NOT ignore db/schema.sql (since it only contains structure)
+# Do NOT ignore README.md or screenshots
